@@ -1,0 +1,83 @@
+/*App Default Color*/
+.ticketok-btn-color{
+  background: #009CFC;
+}
+
+.ticketok-body-color {
+  color: #FFFFFF;
+}
+
+.ticketok-body-text-color {
+  color: #000000
+}
+
+.ticketok-primary-color { color: #009CFC;}
+.ticketok-secondary-color { color: #757575;}
+.ticketok-muted-color { color: #B3B3B3;}
+
+
+.ticketok-text-14 {
+  font-size: 14px;
+}
+
+.ticketok-text-16 { 
+  font-size: 16px;
+}
+
+
+body {
+  font-family: inter;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.ticketok-heading-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+
+.ticketok-btn-primary {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  background: #009CFC;
+  border-radius: 10px;
+
+}
+
+.ticketok-btn-primary-bold {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  background: #009CFC;
+  border-radius: 10px;
+
+}
+
+.ticketok-btn-search-main {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #FFFFFF;
+  background: #009CFC;
+  border-radius: 10px;
+}
+
+

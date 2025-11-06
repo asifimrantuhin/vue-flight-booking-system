@@ -1,0 +1,1150 @@
+/* Default Theme */
+:root {
+    /* Colors from Figma */
+  --ticketok-primary-color: #009CFC;
+  --ticketok-primary2-color: #0084dd;
+  --ticketok-white-color: #FFFFFF;
+  --ticketok-off-white-color: #FAFAFA;
+  --ticketok-black-color: #000000;
+  --ticketok-secondary-color: #757575;
+  --ticketok-muted-color: #B3B3B3;
+  --ticketok-dark-blue-color: #044273;
+  --ticketok-green-light-color: #E6E9E9;
+  --ticketok-yellow-color: #FFB217;
+
+    --primary-blue: #009CFC;
+    --primary-blue-dark: #0088E6;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray-light: #F5F5F5;
+    --gray-medium: #E6E9E9;
+    --gray-border: #D9D9D9;
+    --gray-text: #757575;
+    --gray-dark: #B3B3B3;
+    --green-success: #258C06;
+    --green-light: rgba(37, 140, 6, 0.12);
+    --red-accent: #C70A0C;
+    
+    /* Typography */
+    --font-family: 'Inter', sans-serif;
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 26px;
+    --font-size-3xl: 32px;
+    --font-size-4xl: 36px;
+    --font-size-5xl: 40px;
+    
+    /* Spacing */
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 12px;
+    --spacing-lg: 16px;
+    --spacing-xl: 20px;
+    --spacing-2xl: 24px;
+    --spacing-3xl: 32px;
+    --spacing-4xl: 48px;
+    --spacing-5xl: 80px;
+    
+    /* Border Radius */
+    --radius-sm: 4px;
+    --radius-md: 10px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+    --radius-2xl: 24px;
+    --radius-full: 50%;
+    
+    /* Shadows */
+    --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 4px 20px rgba(0, 156, 252, 0.15);
+    --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.08);
+    --shadow-xl: 0px 16px 32px -8px rgba(12, 12, 13, 0.4);
+
+
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  background: var(--ticketok-white-color);
+  color: var(--ticketok-black-color);
+}
+
+.ticketok-ps-8 {
+  padding-left: 4rem !important;
+}
+
+/* Colors */
+.ticketok-black-color { color: var(--ticketok-black-color); }
+.ticketok-primary-color { color: var(--ticketok-primary-color); }
+.ticketok-secondary-color { color: var(--ticketok-secondary-color); }
+.ticketok-muted-color { color: var(--ticketok-muted-color); }
+
+/* Typography */
+.ticketok-text-10 { font-size: 10px; }
+.ticketok-text-12 { font-size: 12px; }
+.ticketok-text-14 { font-size: 14px; }
+.ticketok-text-16 { font-size: 16px; }
+
+/* Header */
+.ticketok-header {
+  /* border-bottom: 1px solid #f1f1f1; */
+}
+
+.ticketok-country-btn {
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+  color: #000;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.ticketok-btn-primary {
+  background: #009CFC;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+}
+
+.ticketok-btn-primary:hover {
+  background: #0084dd;
+  color: #fff;
+}
+
+.ticketok-btn-search-main {
+  background: #009CFC;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+}
+
+.ticketok-btn-search-main:hover {
+  background: #0084dd;
+}
+
+/* Search Section */
+.ticketok-search-box {
+  position: relative;
+}
+
+.ticketok-card {
+  background: #fff;
+  border-radius: 20px;
+}
+
+/* Flights Tab */
+.ticketok-tab {
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.ticketok-tab-btn {
+  /* background: #009CFC;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 500; */
+
+  background: #009CFC;
+  color: #FFFFFF;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+}
+
+/* Small Select */
+.ticketok-mini-select {
+  width: 140px;
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: #E5E5E5;
+  background-color: #f5f5f5;
+}
+
+/* Location Boxes */
+.ticketok-location-box {
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  border-radius: 10px;
+}
+
+.ticketok-swap-btn {
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.ticketok-btn-white {
+  background: var(--ticketok-off-white-color);
+  color: var(--ticketok-primary-color);
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  width: 100px;
+  height: 50px;
+}
+
+.ticketok-label-btn {
+    background: var(--ticketok-green-light-color);
+    border-radius:30px; 
+    padding:3px 10px; 
+    display:inline-flex; 
+    align-items:center; 
+    gap:8px;
+}
+
+/* Date Input */
+.ticketok-input {
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+  font-size: 14px;
+}
+
+
+/** 2nd Page */
+/* Summary Bar */
+.ticketok-summary {
+  background: #FFFFFF;
+}
+
+.ticketok-summary .summary-details {
+  background: var(--ticketok-green-light-color);
+  border-bottom: 3px solid var(--ticketok-primary-color);
+  padding: 10px 20px 15px 20px;
+}
+.summary-details h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.summary-details small {
+  font-size: 13px;
+}
+
+.summary-details .remaining-text {
+  display: block;
+  font-size: 9px;
+  color: var(--ticketok-black-color);
+}
+.summary-details .remaining-time {
+  display: block;
+}
+
+/* Sidebar */
+.filter-card {
+  background: var(--ticketok-white-color);
+  /* border: 1px solid #E6E6E6; */
+  border: none;
+  border-radius: 16px !important;
+  box-shadow: 0px 16px 32px -8px rgba(12, 12, 13, 0.4);
+}
+
+.filter-card h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.filter-card label {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.filter-card input.form-check-input {
+  border-color: #B3B3B3;
+  cursor: pointer;
+}
+
+.filter-card input.form-check-input:checked {
+  background-color: #009CFC;
+  border-color: #009CFC;
+}
+
+/* Flight Card */
+.flight-card {
+  background: #FFFFFF;
+  border: 1px solid #E6E6E6;
+  border-radius: 16px !important;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.flight-card:hover {
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.flight-card .fw-semibold {
+  color: #000000;
+}
+
+.flight-card .ticketok-muted-color {
+  color: #757575 !important;
+}
+
+/* Flight Path Center Section */
+.flight-card .col-md-4 img {
+  opacity: 0.8;
+}
+
+/* Price Section */
+.flight-card .fs-5 {
+  font-size: 22px !important;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* "Flight Details" link */
+.ticketok-primary-color {
+  color: #009CFC !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.ticketok-primary-color:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .ticketok-summary .container {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+
+  .ticketok-header .row > div {
+    text-align: center !important;
+  }
+
+  .flight-card {
+    padding: 16px !important;
+  }
+
+  .filter-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* -----------------------------
+   Chart Tabs + Bar Chart Section
+--------------------------------*/
+/* Base */
+.ticketok-chart-section {
+  background: #fff;
+  padding: 0;
+  margin-top: -15px;
+}
+
+/* Tabs */
+.ticketok-tabs {
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+  gap: 20px;
+}
+
+.ticketok-tabs .tab {
+  background: transparent;
+  border: none;
+  padding: 10px 0;
+  font-weight: 600;
+  color: #757575;
+  cursor: pointer;
+  position: relative;
+}
+
+.ticketok-tabs .tab.active {
+  color: #000;
+}
+
+.ticketok-tabs .tab.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  width: 100%;
+  background: #000000;
+  border-radius: 4px;
+}
+
+/* Tab Contents */
+.tab-content {
+  display: none;
+  padding-top: 20px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+/* Chart Box */
+.chart-box {
+  border: 1px solid #e5e5e5;
+  border-radius: 16px;
+  padding: 20px 40px;
+  background: #fff;
+}
+
+.chart-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.chart-block {
+  flex: 1;
+  position: relative;
+  padding: 0 5px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* .bar-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  height: 90px;
+}
+
+.bar {
+  width: 20px;
+  background: #E6E6E6;
+  border-radius: 4px;
+  height: calc(var(--h) * 80px);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background: #009CFC;
+  transform: translateY(-4px);
+}
+
+.bar.selected {
+  background: #009CFC;
+} */
+
+.bar-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 5px;
+  height: 140px;
+  position: relative;
+}
+
+.date-bar {
+  position: relative;
+  width: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.date-bar .month-label {
+  position: absolute;
+  top: calc(100% - (1 * 90px) - 60px);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-weight: 600;
+  color: #777;
+}
+
+.date-bar .bar {
+  width: 100%;
+  background: #E6E6E6;
+  border-radius: 0;
+  height: calc(var(--h) * 90px);
+  transition: all 0.3s ease;
+}
+
+.date-bar:hover .bar {
+  background: #009CFC;
+  transform: translateY(-3px);
+}
+
+.date-bar.selected .bar {
+  background: #009CFC;
+}
+
+.day-label {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #555;
+}
+
+.day-label .day-num {
+  font-weight: 600;
+}
+
+.day-label .day-name {
+  font-size: 11px;
+  color: #888;
+}
+
+
+.chart-btn {
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  background: none;
+  /* border: 1px solid #E5E5E5; */
+  border: none;
+  /* border-radius: 50%; */
+  width: 36px;
+  /* height: 36px; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  /* color: #757575; */
+  transition: 0.2s;
+  z-index: 2;
+}
+.chart-btn:hover {
+  color: #009CFC;
+}
+.chart-btn.left { left: -30px; }
+.chart-btn.right { right: -30px; }
+
+/* Airline Slider */
+.ticketok-slider-section {
+  height: 80px;
+  width: 100%;
+  float: none;
+  border: #e5e5e5 1px solid;
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+.airline-slider-wrapper {
+  /* position: relative;
+  margin-top: 25px; */
+  position: relative;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  padding: 0px 15px;
+}
+
+.airline-slider {
+  /* display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  scroll-behavior: smooth;
+  padding: 5px; */
+
+  position: relative;
+	margin: 0 !important;
+  /* padding: 0 60px !important; */
+  gap: 5px;
+  height: 100% !important;
+  display: flex;
+  width:100% !important;
+}
+
+.airline-slider::-webkit-scrollbar {
+  height: 6px;
+}
+.airline-slider::-webkit-scrollbar-thumb {
+  background: #B3B3B3;
+  border-radius: 3px;
+}
+
+.airline-card {
+  position: relative;
+  flex: 0 0 auto;
+  background: #fff;
+  /* border: 1px solid #E5E5E5;
+  border-radius: 12px; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  transition: 0.3s;
+  min-width: 190px;
+}
+
+.airline-card::after {
+  content: "";
+  background-image: url('../img/line-19.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 1px; /* adjust width as needed */
+  height: 100%;
+  pointer-events: none;
+}
+
+.airline-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.airline-card img {
+  height: 24px;
+}
+
+.airline-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}
+
+.airline-card p {
+  font-size: 13px;
+  color: #757575;
+  margin: 0;
+}
+
+/* Slider Buttons */
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: 0;
+  /* border: 1px solid #E5E5E5;
+  border-radius: 50%; */
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #757575;
+  transition: 0.2s;
+  z-index: 2;
+}
+
+.slider-btn:hover {
+  background: none;
+  color: #009CFC;
+}
+
+.slider-btn.left { left: -10px; }
+.slider-btn.right { right: -10px; }
+
+
+/** Sort Filter Section */
+.sort-filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-medium);
+    padding: 10px 15px;
+    border-radius: 16px;
+}
+.quick-sort{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.sort-label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.21;
+    color: var(--black);
+}
+.sort-options {
+    display: flex;
+    gap: 15px;
+}
+.sort-option {
+    position: relative;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
+    color: var(--black);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: 0 20px 0 15px;
+}
+.sort-option::after {
+    content: "";
+    position: absolute;
+    background: url('../img/line-17.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    top: 0;
+    right: 0;
+    left: auto;
+    width: 1px; /* adjust width as needed */
+    height: 100%;
+    pointer-events: none;
+}
+.sort-option:last-child::after {
+  width: 0;
+}
+
+.sort-option small {
+  font-size: 12px;
+  color: var(--black);
+  font-weight: 400;
+}
+
+.sort-by {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sort-dropdown {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: auto !important;
+    font-size: 12px;
+    background-color: var(--ticketok-green-light-color);
+}
+
+
+/* -----------------------------
+   Flight Card Sections
+--------------------------------*/
+
+.ticketok-flight-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+  margin-bottom: 25px;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+.flight-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--ticketok-green-light-color);
+  padding: 14px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.flight-card-header h6 {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+.flight-card-header span {
+  font-weight: 400;
+  color: #777;
+  font-size: 14px;
+}
+
+.search-actions {
+  display: flex;
+  gap: 5px;
+}
+
+.copy-btn, .share-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 3px 5px;
+    border-radius: var(--radius-sm);
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover, .share-btn:hover {
+    background: var(--gray-light);
+}
+
+.flight-card-body {
+  position: relative;
+  padding: 20px;
+  padding-right: 170px; /* leave space for price block */
+}
+
+.price-block {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 130px;
+  text-align: center;
+  /* border-radius: 10px; */
+  padding: 12px;
+}
+
+.price-details {
+  width: 100%;
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  padding: 30px 10px 20px 10px;
+}
+
+.price-block .price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #009CFC;
+}
+.price-block .price-note {
+  font-size: 12px;
+}
+
+.flight-segment {
+  margin-bottom: 10px;
+}
+.flight-segment .airline-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.segment-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding:  10px 25px;
+}
+
+.segment-col .time {
+  font-size: 18px;
+  font-weight: 600;
+}
+.segment-col .airport {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.segment-line {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.segment-line .line {
+  flex: 1;
+  height: 2px;
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.segment-line .stop-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #555;
+}
+
+.segment-line .duration {
+  font-size: 12px;
+  color: #999;
+}
+
+.divider {
+  height: 1px;
+  background: #eee;
+  margin: 10px 0 10px 25px;
+}
+
+.flight-card-footer {
+  background: #f9f9f9;
+  border-top: 1px solid #eee;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flight-card-footer .left-links a {
+  color: #009CFC;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+.flight-card-footer .left-links a.active {
+  font-weight: 600;
+}
+
+
+/* Alternate Sections */
+.alternate-section {
+  /* background: #f3f8f3; */
+  background: var(--ticketok-green-light-color);
+  border: 1px solid #cde0cd;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.alternate-section h5 {
+  text-align: center;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+.alt-slider-btn {
+  background: none;
+  border: 0;
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 20px;
+  color: #757575;
+  transition: 0.2s;
+  opacity: 0.8;
+}
+.alt-slider-btn.active { 
+  opacity: 1;
+  pointer-events: auto;
+}
+.alt-slider-btn.active:hover {
+  background: none;
+  color: #009CFC;
+}
+
+.alternate-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.alt-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 20px;
+  width: 48%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.airline-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.segment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.col .time {
+  font-weight: 600;
+  font-size: 15px;
+}
+.col .airport {
+  font-size: 13px;
+  font-weight: 500;
+}
+.col .date {
+  font-size: 12px;
+  color: #777;
+}
+
+/* .line {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.bar {
+  flex: 1;
+  height: 2px;
+  background: #ccc;
+  border-radius: 2px;
+}
+.stop {
+  display: flex;
+  font-size: 11px;
+  font-weight: 600;
+}
+.duration {
+  display: flex;
+  font-size: 11px;
+  color: #888;
+} */
+
+.flight-line {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.flight-bar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* The gray horizontal line */
+.flight-bar::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #ccc;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+/* Each stop */
+.stop {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 60px;
+}
+
+/* Dot marker */
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #e6e6e6;
+  border-radius: 50%;
+  margin: 6px auto;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 0px #009CFC;
+}
+
+/* Labels */
+.stop-code {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.stop-time {
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}
+
+
+/** */
+.price-box {
+  display: flex;
+  background: #e8f4e8;
+  border-radius: 10px;
+  padding: 10px 80px;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.alt-price-details, .save-details {
+  flex: 1;
+}
+.alt-price-details {
+  text-align: left;
+}
+.save-details {
+  text-align: right;
+}
+.price {
+  font-size: 22px;
+  color: #0a9f0a;
+  font-weight: 700;
+}
+.per {
+  font-size: 12px;
+  color: #666;
+}
+.save {
+  font-size: 12px;
+  font-weight: 600;
+  color: #4c864c;
+  margin-top: 5px;
+}
+.save span {
+  color: #0a9f0a;
+}
+
+.footer {
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+.footer a {
+  text-decoration: none;
+  color: #009CFC;
+}
+.footer a.active {
+  font-weight: 600;
+}
+
+.btn-book {
+  display: inline-block;
+  background: #009CFC;
+  color: #fff !important;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+
+
+/* Footer */
+.footer-content {
+    width: 100%;
+    height: 150px;
+    padding: 20px 0;
+    background-color: var(--ticketok-green-light-color);
+    color: var(--ticketok-white-color);
+}
