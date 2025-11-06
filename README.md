@@ -1,4 +1,4 @@
-# Frontend
+# Flight Booking Frontend
 
 Vue.js 3 frontend application for the  flight booking system.
 
@@ -304,11 +304,3 @@ const API_BASE_URL = process.env.VITE_API_URL || 'http://localhost:8080/api/v1'
 - [Vite Documentation](https://vitejs.dev/)
 - [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/)
 
-## 📄 License
-
-Proprietary - 
-
----
-
-**Version**: 1.0.0  
-**Last Updated**: November 2025
